@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .endpoints {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+        }
+        .endpoint {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .method {
+            font-weight: bold;
+            color: #007bff;
+        }
+        .url {
+            color: #28a745;
+        }
+        .description {
+            color: #666;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Library Management System API</h1>
+        
+        <div class="endpoints">
+            <h2>Available Endpoints</h2>
+            
+            <div class="endpoint">
+                <span class="method">GET</span>
+                <span class="url">/api/members</span>
+                <div class="description">Get all members</div>
+            </div>
+            
+            <div class="endpoint">
+                <span class="method">POST</span>
+                <span class="url">/api/members</span>
+                <div class="description">Create a new member</div>
+            </div>
+            
+            <div class="endpoint">
+                <span class="method">GET</span>
+                <span class="url">/api/books</span>
+                <div class="description">Get all books</div>
+            </div>
+            
+            <div class="endpoint">
+                <span class="method">POST</span>
+                <span class="url">/api/books</span>
+                <div class="description">Create a new book</div>
+            </div>
+            
+            <div class="endpoint">
+                <span class="method">GET</span>
+                <span class="url">/api/borrowing</span>
+                <div class="description">Get all borrowing records</div>
+            </div>
+            
+            <div class="endpoint">
+                <span class="method">POST</span>
+                <span class="url">/api/borrowing</span>
+                <div class="description">Create a new borrowing record</div>
+            </div>
+            
+            <div class="endpoint">
+                <span class="method">GET</span>
+                <span class="url">/api/reservations</span>
+                <div class="description">Get all reservations</div>
+            </div>
+            
+            <div class="endpoint">
+                <span class="method">POST</span>
+                <span class="url">/api/reservations</span>
+                <div class="description">Create a new reservation</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
